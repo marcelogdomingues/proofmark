@@ -7,6 +7,8 @@ offline and dependency-light.
 
 🌍 **[English](README.md)** · [Português](README.pt.md) · 📚 [Documentation](docs/README.md)
 
+<p align="center"><img src="assets/demo.svg" alt="proofmark demo: sign and verify a provenance chain" width="100%"></p>
+
 [![CI](https://github.com/marcelogdomingues/proofmark/actions/workflows/ci.yml/badge.svg)](https://github.com/marcelogdomingues/proofmark/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/proofmark.svg)](https://www.npmjs.com/package/proofmark)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)

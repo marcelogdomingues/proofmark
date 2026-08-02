@@ -7,6 +7,8 @@ proveniência ao estilo C2PA, offline e leve.
 
 🌍 [English](README.md) · **[Português](README.pt.md)** · 📚 [Documentação](docs/README.md)
 
+<p align="center"><img src="assets/demo.svg" alt="demo do proofmark: assinar e verificar uma cadeia de proveniência" width="100%"></p>
+
 [![CI](https://github.com/marcelogdomingues/proofmark/actions/workflows/ci.yml/badge.svg)](https://github.com/marcelogdomingues/proofmark/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/proofmark.svg)](https://www.npmjs.com/package/proofmark)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
