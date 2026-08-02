@@ -1,0 +1,61 @@
+{
+  "name": "proofmark",
+  "version": "0.1.0",
+  "description": "Content provenance you can verify: sign what created/edited content (AI or human) as W3C Verifiable Credentials, cryptographically bound to the bytes. A C2PA-style sidecar, offline.",
+  "keywords": [
+    "provenance",
+    "c2pa",
+    "content-authenticity",
+    "ai-provenance",
+    "deepfake",
+    "verifiable-credentials",
+    "did",
+    "watermark",
+    "integrity"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "author": "Marcelo Domingues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelogdomingues/proofmark.git"
+  },
+  "homepage": "https://github.com/marcelogdomingues/proofmark#readme",
+  "bugs": "https://github.com/marcelogdomingues/proofmark/issues",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "demo": "node --import tsx src/demo.ts",
+    "test": "node --import tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.6.0",
+    "bs58": "^6.0.0",
+    "did-jwt-vc": "^4.0.0",
+    "did-jwt": "^8.0.0",
+    "did-resolver": "^4.1.0",
+    "key-did-resolver": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "tsx": "^4.23.1",
+    "typescript": "^5.7.2"
+  }
+}
